@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-	
+	"github.com/PAAR16/queuectl/cmd"
 )
 
 func main() {
-	fmt.Println("hello world")
+	cmd.Execute()
 }
