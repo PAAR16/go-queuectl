@@ -15,7 +15,7 @@ var rootCmd = &cobra.Command{
 and handle retries with a dead-letter queue.`,
 }
 
-// Execute adds all child commands to the root command and sets flags appropriately.
+
 func Execute() {
 	if err := rootCmd.Execute(); err != nil {
 		fmt.Println(err)
@@ -23,6 +23,6 @@ func Execute() {
 	}
 }
 
-func init() {
-	// Here you will initialize your global flags if any.
-}
+// func init() {
+// 	// Here you will initialize your global flags if any.
+// }
